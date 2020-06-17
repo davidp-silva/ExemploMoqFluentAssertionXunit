@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaAberturaConta", "src\ConsultaAberturaConta\ConsultaAberturaConta.csproj", "{7BF79106-049C-4D64-924D-A41BD350F1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaAberturaConta.Testes", "test\ConsultaAberturaConta.Testes\ConsultaAberturaConta.Testes.csproj", "{5045029D-2687-4C80-9DE1-0C40712C3CAF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF79106-049C-4D64-924D-A41BD350F1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF79106-049C-4D64-924D-A41BD350F1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF79106-049C-4D64-924D-A41BD350F1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF79106-049C-4D64-924D-A41BD350F1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5045029D-2687-4C80-9DE1-0C40712C3CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5045029D-2687-4C80-9DE1-0C40712C3CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5045029D-2687-4C80-9DE1-0C40712C3CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5045029D-2687-4C80-9DE1-0C40712C3CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
